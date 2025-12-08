@@ -50,5 +50,5 @@ This application exposes the `Training` component via Module Federation, which c
 
 ## Repository
 
-https://github.com/Abhishek260305/training-ui
+https://github.com/Abhishek260305/codestandoff-training-ui
 
