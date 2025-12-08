@@ -8,7 +8,7 @@ module.exports = {
         name: 'training',
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
-          './Training': './src/components/Training',
+          './Training': './pages/Training',
         },
         shared: {
           react: {
