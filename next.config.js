@@ -5,7 +5,7 @@ module.exports = {
     const { isServer } = options;
     config.plugins.push(
       new NextFederationPlugin({
-        name: 'training',
+        name: 'training_ui',
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
           './Training': './pages/Training',
