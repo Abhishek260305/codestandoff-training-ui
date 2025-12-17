@@ -1,8 +1,10 @@
+import QuestionsList from "@/components/QuestionsList";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-      <h1 className="text-white text-4xl font-bold">Welcome to Training</h1>
-    </div>
+    <main className="min-h-screen bg-background py-8 px-4">
+      <QuestionsList />
+    </main>
   );
 }
 
